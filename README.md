@@ -183,8 +183,7 @@ public class RMIServer extends UnicastRemoteObject implements RMIInterface {
 ## Finally Implement Client Side
 ## Create Java SE GUI
 
-private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
+private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {                                    
         try {
             String contactName = txtName.getText();
             String phoneNo = txtPhoneNo.getText();
@@ -266,4 +265,3 @@ private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {
     
   ## Step IV: Run the Server Side
   ## Step V: Run the Client Side GUI
-
