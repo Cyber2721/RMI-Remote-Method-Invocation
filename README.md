@@ -1,6 +1,6 @@
 # RMI-Remote-Method-Invocation for Telephone Direcory
 This repo contains demonstration of Distributed System with RMI - Remote Method Invocation.
-##Step I: Define Services in the Interface (IDL)
+## Step I: Define Services in the Interface (IDL)
 
 package phonedir;
 
@@ -22,7 +22,7 @@ public interface RMIInterface extends Remote {
 
 }
 
-##Implement the Server Side (RMIServer.java)
+## Implement the Server Side (RMIServer.java)
 
 package phonedir;
 
@@ -180,8 +180,8 @@ public class RMIServer extends UnicastRemoteObject implements RMIInterface {
     }
 }
 
-##Finally Implement Client Side
-##Create Java SE GUI
+## Finally Implement Client Side
+## Create Java SE GUI
 
 private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
@@ -264,6 +264,6 @@ private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {
 
     }
     
-    Step IV: Run the Server Side
-    Step V: Run the Client Side GUI
+  ## Step IV: Run the Server Side
+  ## Step V: Run the Client Side GUI
 
